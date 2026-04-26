@@ -32,5 +32,5 @@ const PORT = process.env.PORT || 5001;
 connectdb();
 
 app.listen(PORT, () => {
-  console.log(`Auth Service running on port ${PORT}`);
+  console.log(`Product Service running on port ${PORT}`);
 });
